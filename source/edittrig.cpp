@@ -21,7 +21,7 @@ static long FileTriggerSide, LastFileTriggerID;
 
 // misc edit text
 
-static char *FileTriggerAxisNames[] = {
+static const char *FileTriggerAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -30,7 +30,7 @@ static char *FileTriggerAxisNames[] = {
 	"Z",
 };
 
-static char *FileTriggerAxisTypeNames[] = {
+static const char *FileTriggerAxisTypeNames[] = {
 	"Camera",
 	"World",
 };
@@ -57,7 +57,7 @@ static long DrawTriggerCol[] = {
 
 // enums
 
-char *TriggerEnumTrackDir[] = {
+const char *TriggerEnumTrackDir[] = {
 	"Chicane left",
 	"180 left",
 	"90 left",
@@ -73,7 +73,7 @@ char *TriggerEnumTrackDir[] = {
 	NULL
 };
 
-char *TriggerEnumCameraRail[] = {
+const char *TriggerEnumCameraRail[] = {
 	"Collision: None",
 	"Collision: Full",
 
@@ -82,7 +82,7 @@ char *TriggerEnumCameraRail[] = {
 
 // ID names
 
-static char *TriggerNames[] = {
+static const char *TriggerNames[] = {
 	"Piano",
 	"Split",
 	"Track dir",
@@ -92,7 +92,7 @@ static char *TriggerNames[] = {
 	NULL
 };
 
-static char **TriggerEnums[] = {
+static const char **TriggerEnums[] = {
 	NULL,
 	NULL,
 	TriggerEnumTrackDir,

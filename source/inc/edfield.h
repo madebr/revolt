@@ -44,8 +44,8 @@ typedef struct {
 
 extern void InitFileFields(void);
 extern void KillFileFields(void);
-extern void LoadFileFields(char *file);
-extern void SaveFileFields(char *file);
+extern void LoadFileFields(const char *file);
+extern void SaveFileFields(const char *file);
 extern FILE_FIELD *AllocFileField(void);
 extern void FreeFileField(FILE_FIELD *field);
 extern void DrawFields(void);

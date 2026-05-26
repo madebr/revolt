@@ -28,7 +28,7 @@ static long RevLit[REV_LIT_MAX];
 static long WrongWayFlag;
 static float WrongWayTimer;
 
-static char *SpeedUnitText[SPEED_NTYPES] = {
+static const char *SpeedUnitText[SPEED_NTYPES] = {
 	"mph",
 	"fpm",
 	"kph"

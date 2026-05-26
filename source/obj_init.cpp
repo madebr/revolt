@@ -50,7 +50,7 @@
 #ifdef _PC
 // globals
 
-static char *DragonMorphFrames[] = {
+static const char *DragonMorphFrames[] = {
 	"models\\dragon2.m",
 	"models\\dragon3.m",
 };

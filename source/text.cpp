@@ -59,7 +59,7 @@ char MainMenuAllowed[] = {
 	FALSE,
 };
 
-char *MainMenuText[] = {
+static const char *MainMenuText[] = {
 	"Start Game",
 	"Start AI Test",
 	"Start Multi Player",
@@ -80,7 +80,7 @@ char *MainMenuText[] = {
 	"New Front End",
 };
 
-char *DetailMenuText[] = {
+static const char *DetailMenuText[] = {
 	"Wireframe: ",
 	"Collision: ",
 	"Perspective Correct: ",
@@ -101,7 +101,7 @@ char *DetailMenuText[] = {
 	"Car BBoxes: "
 };
 
-char *EditMenuText[] = {
+static const char *EditMenuText[] = {
 	"None",
 	"Lights",
 	"Visiboxes",
@@ -115,19 +115,19 @@ char *EditMenuText[] = {
 	"Gay Matttt's Tony Portals",
 };
 
-char *TextureFilterText[] = {
+static const char *TextureFilterText[] = {
     "Point",
     "Linear",
     "Anisotropic",
 };
 
-char *MipMapText[] = {
+static const char *MipMapText[] = {
     "None",
     "Point",
     "Linear",
 };
 
-char *NoYesText[] = {
+static const char *NoYesText[] = {
 	"No",
 	"Yes",
 };
@@ -136,7 +136,7 @@ char *NoYesText[] = {
 // draw text to back buffer //
 //////////////////////////////
 
-void PrintText(short x, short y, char *text)
+void PrintText(short x, short y, const char *text)
 {
 	HDC hdc;
 
@@ -166,7 +166,7 @@ void BeginTextState(void)
 // draw text to back buffer //
 //////////////////////////////
 
-void DumpText(short x, short y, short xs, short ys, long color, char *text)
+void DumpText(short x, short y, short xs, short ys, long color, const char *text)
 {
 	char i;
 	float tu, tv;
@@ -250,7 +250,7 @@ void DumpText(short x, short y, short xs, short ys, long color, char *text)
 // draw big text to back buffer //
 //////////////////////////////////
 
-void DumpBigText(short x, short y, short xs, short ys, long color, char *text)
+void DumpBigText(short x, short y, short xs, short ys, long color, const char *text)
 {
 	char i;
 	float tu, tv;
@@ -334,7 +334,7 @@ void DumpBigText(short x, short y, short xs, short ys, long color, char *text)
 // draw text to back buffer //
 //////////////////////////////
 
-void DumpText3D(VEC *pos, float xs, float ys, long color, char *text)
+void DumpText3D(VEC *pos, float xs, float ys, long color, const char *text)
 {
 	char i;
 	float tu, tv, sz, rhw;
@@ -431,7 +431,7 @@ void DetailMenu(void)
 	short i;
 	static short select = 0;
 	unsigned long col;
-	char *togg;
+	const char *togg;
 	long flag;
 	char off[] = "Off";
 	char on[] = "On";
@@ -719,7 +719,7 @@ void MainMenu(void)
 	short i, line, flag;
 	long col;
 	unsigned char c;
-	char *text;
+	const char *text;
 	char buf[128];
 
 // buffer flip / clear

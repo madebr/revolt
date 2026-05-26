@@ -273,7 +273,7 @@ extern void SetFogVars(REAL fogstart, REAL vertstart, REAL vertend);
 extern void DrawAxis(MAT *mat, VEC *pos);
 extern void DumpImage(char handle, float x, float y, float w, float h, float u, float v, float tw, float th, unsigned long col);
 extern void DrawMousePointer(unsigned long color);
-extern BOOL LoadBitmap(char *bitmap, HBITMAP *hbm);
+extern BOOL LoadBitmap(const char *bitmap, HBITMAP *hbm);
 extern BOOL FreeBitmap(HBITMAP hbm);
 extern BOOL BlitBitmap(HBITMAP hbm, IDirectDrawSurface4 **surface);
 extern void DrawBoundingBox(float xmin, float xmax, float ymin, float ymax, float zmin, float zmax, long c0, long c1, long c2, long c3, long c4, long c5);

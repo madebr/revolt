@@ -42,8 +42,8 @@ typedef struct {
 } SAMPLE_3D;
 
 typedef struct {
-	char *Name;
-	char **Files;
+	const char *Name;
+	const char **Files;
 } LEVEL_SFX;
 
 // prototypes

@@ -68,7 +68,7 @@ HWND hwnd;
 HBITMAP TitleHbm;
 GAME_SETTINGS GameSettings;
 RENDER_SETTINGS	RenderSettings;
-char *CarInfoFile = "CarInfo.txt";
+const char *CarInfoFile = "CarInfo.txt";
 
 static WNDCLASS wcl;
 static char WinName[] = "Revolt";
@@ -78,7 +78,7 @@ static long ActivePriority = HIGH_PRIORITY_CLASS;
 
 // cheat strings
 
-char *CheatStrings[] = {
+const char *CheatStrings[] = {
 	"yak",
 
 	NULL
@@ -404,7 +404,7 @@ bool InitWin(HINSTANCE hThisInst, int nWinMode)
 // display message box //
 /////////////////////////
 
-long Box(char *title, char *mess, long flag)
+long Box(const char *title, const char *mess, long flag)
 {
 	if (DD)
 		DD->FlipToGDISurface();

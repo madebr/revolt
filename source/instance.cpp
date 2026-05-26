@@ -28,7 +28,7 @@ static unsigned char LastModel;
 
 // misc edit text
 
-static char *InstanceAxisNames[] = {
+static const char *InstanceAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -37,7 +37,7 @@ static char *InstanceAxisNames[] = {
 	"Z",
 };
 
-static char *InstanceAxisTypeNames[] = {
+static const char *InstanceAxisTypeNames[] = {
 	"Camera",
 	"World",
 };

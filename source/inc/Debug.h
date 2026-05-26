@@ -42,23 +42,23 @@
 #endif
 
 typedef struct MemStorageStruct {
-	void	*Ptr;							// pointer to the allocated ram
-	size_t	Size;							// amount of ram that was allocated (an extra byte is added as a guard byte)
-	char	*File;							// first few characters of file where allocated
-	int		Line;							// line number where allocated
+	void		*Ptr;						// pointer to the allocated ram
+	size_t		Size;						// amount of ram that was allocated (an extra byte is added as a guard byte)
+	const char	*File;						// first few characters of file where allocated
+	int			Line;						// line number where allocated
 
 	struct MemStorageStruct *Prev;
 	struct MemStorageStruct *Next;
 } MEMSTORE;
 
-extern void *DebugMalloc(size_t size, int line, char *file);
-extern void DebugFree(void *p, int line, char *file);
+extern void *DebugMalloc(size_t size, int line, const char *file);
+extern void DebugFree(void *p, int line, const char *file);
 extern void CheckMemoryAllocation(void);
-extern void Error(char *mod, char *func, char *mess, long errcode);
+extern void Error(const char *mod, const char *func, const char *mess, long errcode);
 
 
 extern size_t DBG_AllocatedRAM;
-extern char *DBG_LogFile;;
+extern const char *DBG_LogFile;;
 extern bool TellChris;
 
 /////////////////////////////////////////////////////////////////////
@@ -73,7 +73,7 @@ extern bool TellChris;
 #define Assert(x)	(NULL)
 #endif
 
-extern void DebugAssert(bool ExpResult, int line, char *file);
+extern void DebugAssert(bool ExpResult, int line, const char *file);
 
 
 

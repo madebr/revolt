@@ -27,7 +27,7 @@ static long CurrentFileObjectFlag = -1;
 
 // misc edit text
 
-static char *FileObjectAxisNames[] = {
+static const char *FileObjectAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -36,7 +36,7 @@ static char *FileObjectAxisNames[] = {
 	"Z",
 };
 
-static char *FileObjectAxisTypeNames[] = {
+static const char *FileObjectAxisTypeNames[] = {
 	"Camera",
 	"World",
 };

@@ -19,7 +19,7 @@ static long EditPortalSide, LastEditPortalID;
 
 // misc edit text
 
-static char *EditPortalAxisNames[] = {
+static const char *EditPortalAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -28,7 +28,7 @@ static char *EditPortalAxisNames[] = {
 	"Z",
 };
 
-static char *EditPortalAxisTypeNames[] = {
+static const char *EditPortalAxisTypeNames[] = {
 	"Camera",
 	"World",
 };

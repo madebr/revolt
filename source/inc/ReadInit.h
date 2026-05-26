@@ -29,7 +29,7 @@ static bool ReadVec(VEC *vec, FILE *fp);
 static bool ReadMat(MAT *mat, FILE *fp);
 static int ReadNumberList(int *numList, int maxNum, FILE *fp);
 
-static bool Compare(char *word, char *token);
+static bool Compare(const char *word, const char *token);
 
 static void SetCarDefaults(CAR *car);
 static bool ReadCarInfo(FILE *fp);
@@ -40,12 +40,12 @@ static bool ReadSpringInfo(FILE *fp);
 static bool ReadAxleInfo(FILE *fp);
 static bool ReadSpinnerInfo(FILE *fp);
 static bool ReadPinInfo(FILE *fp);
-static int  UnknownWordMessage(char *word);
-static void InvalidVariable(char *object);
-static void ShowErrorMessage(char *word);
-static void InvalidNumberList(char *object);
+static int  UnknownWordMessage(const char *word);
+static void InvalidVariable(const char *object);
+static void ShowErrorMessage(const char *word);
+static void InvalidNumberList(const char *object);
 
-extern bool ReadAllCarInfo(char *fileName);
+extern bool ReadAllCarInfo(const char *fileName);
 
 
 #endif

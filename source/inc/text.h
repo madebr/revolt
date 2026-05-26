@@ -63,11 +63,11 @@ enum DETAIL_MENU_OPTIONS {
 
 // prototypes
 
-extern void PrintText(short x, short y, char *text);
+extern void PrintText(short x, short y, const char *text);
 extern void BeginTextState(void);
-extern void DumpText(short x, short y, short xs, short ys, long color, char *text);
-extern void DumpBigText(short x, short y, short xs, short ys, long color, char *text);
-extern void DumpText3D(VEC *pos, float xs, float ys, long color, char *text);
+extern void DumpText(short x, short y, short xs, short ys, long color, const char *text);
+extern void DumpBigText(short x, short y, short xs, short ys, long color, const char *text);
+extern void DumpText3D(VEC *pos, float xs, float ys, long color, const char *text);
 extern void DetailMenu(void);
 extern void MainMenu(void);
 

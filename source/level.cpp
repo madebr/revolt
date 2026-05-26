@@ -841,7 +841,7 @@ void FreeLevels(void)
 // set level name - return corresponging level number or -1 //
 //////////////////////////////////////////////////////////////
 
-long GetLevelNum(char *dir)
+long GetLevelNum(const char *dir)
 {
 	long i;
 
@@ -864,7 +864,7 @@ long GetLevelNum(char *dir)
 // get level filename //
 ////////////////////////
 
-char *GetLevelFilename(char *filename, long flag)
+char *GetLevelFilename(const char *filename, long flag)
 {
 
 // make body

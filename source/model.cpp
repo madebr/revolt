@@ -49,7 +49,7 @@ static BUCKET_ENV *ModelBucketHeadEnv, *ModelBucketHeadEnvClip;
 
 // level model list
 
-static char *LevelModelList[] = {
+static const char *LevelModelList[] = {
 	"models\\barrel",
 	"models\\beachball",
 	"models\\mercury",
@@ -98,7 +98,7 @@ static char *LevelModelList[] = {
 // load a model //
 //////////////////
 
-long LoadModel(char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer)
+long LoadModel(const char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer)
 {
 	FILE *fp;
 	MODEL_HEADER mh;
@@ -2375,7 +2375,7 @@ void FreeOneLevelModel(long slot)
 // set a models morph frames //
 ///////////////////////////////
 
-void SetModelFrames(MODEL *model, char **files, long count)
+void SetModelFrames(MODEL *model, const char **files, long count)
 {
 	long i, j;
 	FILE *fp;

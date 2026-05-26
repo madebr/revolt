@@ -677,7 +677,7 @@ void ReleaseD3D(void)
 // Report DX error //
 /////////////////////
 
-void ErrorDX(HRESULT r, char *mess)
+void ErrorDX(HRESULT r, const char *mess)
 {
 	ERRORDX *p = ErrorListDX;
 

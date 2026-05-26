@@ -284,7 +284,7 @@ extern BOOL InitD3D(DWORD width, DWORD height, DWORD bpp, DWORD refresh);
 extern void ReleaseDX(void);
 extern void ReleaseD3D(void);
 extern void SetGamma(long brightness, long contrast);
-extern void ErrorDX(HRESULT r, char *mess);
+extern void ErrorDX(HRESULT r, const char *mess);
 extern void SetBackgroundColor(long col);
 extern HRESULT CALLBACK EnumZedBufferCallback(DDPIXELFORMAT *ddpf, void *user);
 extern void CheckSurfaces(void);

@@ -245,7 +245,7 @@ typedef struct {
 
 // prototypes
 
-extern long LoadModel(char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer);
+extern long LoadModel(const char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer);
 extern void FreeModel(MODEL *m, long prmlevel);
 extern void DrawModel(MODEL *m, MAT *worldmat, VEC *worldpos, short flag);
 extern void TransModelVertsFogClip(MODEL *m, MAT *mat, VEC *trans);

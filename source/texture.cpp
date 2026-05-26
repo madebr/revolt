@@ -379,7 +379,7 @@ long CountMipTexturePixels(long needed, long width, long height)
 // load texture intelligently //
 ////////////////////////////////
 
-bool LoadTextureClever(char *tex, char tpage, long width, long height, long stage, long set, long mip)
+bool LoadTextureClever(const char *tex, char tpage, long width, long height, long stage, long set, long mip)
 {
 	long i, len, mipcount;
 	FILE *fp;
@@ -433,7 +433,7 @@ bool LoadTextureClever(char *tex, char tpage, long width, long height, long stag
 // Load texture //
 //////////////////
 
-bool LoadTexture(char *tex, char tpage, long width, long height, long stage)
+bool LoadTexture(const char *tex, char tpage, long width, long height, long stage)
 {
 	HBITMAP hbm;
 	BITMAP bm;
@@ -640,7 +640,7 @@ bool LoadTexture(char *tex, char tpage, long width, long height, long stage)
 // Load mipmap texture //
 /////////////////////////
 
-bool LoadMipTexture(char *tex, char tpage, long width, long height, long stage, long mipcount)
+bool LoadMipTexture(const char *tex, char tpage, long width, long height, long stage, long mipcount)
 {
 	HBITMAP hbm;
 	BITMAP bm;

@@ -106,7 +106,7 @@ extern void CheckZZZ(void);
 
 // paws menu
 
-char *PawsMenuText[] = {
+const char *PawsMenuText[] = {
 	"RESUME",
 	" QUIT",
 };

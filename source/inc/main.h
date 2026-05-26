@@ -78,7 +78,7 @@ typedef struct {
 
 extern LRESULT CALLBACK WindowFunc(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
 extern bool InitWin(HINSTANCE hThisInst, int nWinMode);
-extern long Box(char *title, char *mess, long flag);
+extern long Box(const char *title, const char *mess, long flag);
 extern void Vblank(char count);
 extern void GameLoop(void);
 extern void Go(void);

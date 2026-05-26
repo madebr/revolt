@@ -33,20 +33,20 @@ LIGHT *CurrentEditLight;
 
 // edit text
 
-static char *LightNames[] = {
+static const char *LightNames[] = {
 	"Omni",
 	"Omni Normal",
 	"Spot",
 	"Spot Normal",
 };
 
-static char *LightFlags[] = {
+static const char *LightFlags[] = {
 	"World Only",
 	"Objects Only",
 	"World and Objects",
 };
 
-static char *LightAxisNames[] = {
+static const char *LightAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -55,12 +55,12 @@ static char *LightAxisNames[] = {
 	"Z",
 };
 
-static char *LightAxisTypeNames[] = {
+static const char *LightAxisTypeNames[] = {
 	"Camera",
 	"World",
 };
 
-static char *LightFlickerNames[] = {
+static const char *LightFlickerNames[] = {
 	"Off",
 	"On",
 };

@@ -26,7 +26,7 @@ static long FileZoneSide, LastFileZoneID;
 
 // misc edit text
 
-static char *FileZoneAxisNames[] = {
+static const char *FileZoneAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -35,7 +35,7 @@ static char *FileZoneAxisNames[] = {
 	"Z",
 };
 
-static char *FileZoneAxisTypeNames[] = {
+static const char *FileZoneAxisTypeNames[] = {
 	"Camera",
 	"World",
 };

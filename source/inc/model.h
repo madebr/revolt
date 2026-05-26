@@ -245,7 +245,7 @@ typedef struct {
 
 // prototypes
 
-extern long LoadModel(char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer);
+extern long LoadModel(const char *file, MODEL *m, char tpage, char prmlevel, char loadflag, long RgbPer);
 extern void FreeModel(MODEL *m, long prmlevel);
 extern void DrawModel(MODEL *m, MAT *worldmat, VEC *worldpos, short flag);
 extern void TransModelVertsFogClip(MODEL *m, MAT *mat, VEC *trans);
@@ -271,7 +271,7 @@ extern void InitLevelModels(void);
 extern void FreeLevelModels(void);
 extern long LoadOneLevelModel(long id, long flag, struct renderflags renderflag, long tpage);
 extern void FreeOneLevelModel(long slot);
-extern void SetModelFrames(MODEL *model, char **files, long count);
+extern void SetModelFrames(MODEL *model, const char **files, long count);
 extern void SetModelMorph(MODEL *m, long frame1, long frame2, float time);
 extern void CheckModelMeshFx(MODEL *model, MAT *mat, VEC *pos, short *flag);
 

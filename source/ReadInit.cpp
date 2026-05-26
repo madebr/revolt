@@ -306,7 +306,7 @@ bool StringToUpper(char *string)
 	return TRUE;
 }*/
 
-bool Compare (char *word, char *token) 
+bool Compare (const char *word, const char *token)
 {
 	unsigned int wordLen;
 	unsigned int iChar;
@@ -412,7 +412,7 @@ int ReadNumberList(int *numList, int maxNum, FILE *fp)
 //
 /////////////////////////////////////////////////////////////////////
 
-bool ReadAllCarInfo(char *fileName)
+bool ReadAllCarInfo(const char *fileName)
 {
 	char word[READ_MAX_WORDLEN];
 	FILE *fp;
@@ -1479,7 +1479,7 @@ bool ReadAerialInfo(FILE *fp)
 //
 /////////////////////////////////////////////////////////////////////
 
-int UnknownWordMessage(char *word)
+int UnknownWordMessage(const char *word)
 {
 
 	wsprintf(ErrorMessage, "\"%s\"\n\nContinue?", word);
@@ -1487,7 +1487,7 @@ int UnknownWordMessage(char *word)
 
 }
 
-void ShowErrorMessage(char *word)
+void ShowErrorMessage(const char *word)
 {
 
 	wsprintf(ErrorMessage, "%s", word);
@@ -1503,7 +1503,7 @@ void InvalidVariable(char *object)
 
 }
 
-void InvalidNumberList(char *object)
+void InvalidNumberList(const char *object)
 {
 
 	wsprintf(ErrorMessage, "Invalid number list for\n%s", object);

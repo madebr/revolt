@@ -40,12 +40,12 @@ static long CamVisiBoxCount, TestVisiBoxCount;
 #ifdef _PC
 // edit text
 
-static char *VisiBoxNames[] = {
+static const char *VisiBoxNames[] = {
 	"Camera",
 	"Cubes",
 };
 
-static char *VisiAxisNames[] = {
+static const char *VisiAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -54,7 +54,7 @@ static char *VisiAxisNames[] = {
 	"Z",
 };
 
-static char *VisiAxisTypeNames[] = {
+static const char *VisiAxisTypeNames[] = {
 	"Camera",
 	"World",
 };

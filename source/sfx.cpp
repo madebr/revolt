@@ -21,7 +21,7 @@ static HSTREAM StreamMP3;
 
 // generic sfx
 
-static char *SfxGeneric[] = {
+static const char *SfxGeneric[] = {
 	"wavs\\moto.wav",
 	"wavs\\honkgood.wav",
 	"wavs\\scrape1.wav",
@@ -45,7 +45,7 @@ static char *SfxGeneric[] = {
 
 // toy sfx
 
-static char *SfxToy[] = {
+static const char *SfxToy[] = {
 	"wavs\\piano.wav",
 	"wavs\\plane.wav",
 	"wavs\\copter.wav",
@@ -148,7 +148,7 @@ long LoadSfx(char *levelname)
 {
 	long i;
 	char buf[128];
-	char **wavs;
+	const char **wavs;
 
 // quit if sound off
 

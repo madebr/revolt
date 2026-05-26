@@ -21,7 +21,7 @@ static EDIT_CAM_NODE *LastEditCamNode = NULL;
 
 static long MaxEditCamNodeID = -1;
 
-static char *EditCamNodeModelNames[CAMNODE_NTYPES] = {
+static const char *EditCamNodeModelNames[CAMNODE_NTYPES] = {
 	"edit\\camnode.m",
 	"models\\football.m",
 };
@@ -29,7 +29,7 @@ static char *EditCamNodeModelNames[CAMNODE_NTYPES] = {
 
 // misc text
 
-static char *EditCamNodeAxisNames[] = {
+static const char *EditCamNodeAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -38,12 +38,12 @@ static char *EditCamNodeAxisNames[] = {
 	"Z",
 };
 
-static char *EditCamNodeAxisTypeNames[] = {
+static const char *EditCamNodeAxisTypeNames[] = {
 	"Camera",
 	"World",
 };
 
-char *CamNodeTypeText[] = {
+const char *CamNodeTypeText[] = {
 	"Monorail",
 	"Static",
 };

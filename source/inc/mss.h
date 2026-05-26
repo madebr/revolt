@@ -2253,23 +2253,23 @@ DXDEC  void       AILCALL AIL_mem_free_lock (void FAR *ptr);
 
 DXDEC  S32        AILCALL AIL_file_error   (void);
 
-DXDEC  S32        AILCALL AIL_file_size    (char FAR   *filename);
+DXDEC  S32        AILCALL AIL_file_size    (const char FAR   *filename);
 
-DXDEC  void FAR * AILCALL AIL_file_read    (char FAR   *filename,
+DXDEC  void FAR * AILCALL AIL_file_read    (const char FAR   *filename,
                                            void FAR *dest);
 
-DXDEC  S32        AILCALL AIL_file_write   (char FAR   *filename,
+DXDEC  S32        AILCALL AIL_file_write   (const char FAR   *filename,
                                             void FAR *buf,
                                             U32       len);
 
 DXDEC  S32        AILCALL AIL_WAV_file_write
-                                           (char FAR   *filename,
+                                           (const char FAR   *filename,
                                             void FAR *buf,
                                             U32       len,
                                             S32       rate,
                                             S32       format);
 
-DXDEC  S32        AILCALL AIL_file_append  (char FAR*filename,
+DXDEC  S32        AILCALL AIL_file_append  (const char FAR*filename,
                                             void FAR*buf, U32 len);
 #ifdef IS_DOS
 

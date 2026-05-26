@@ -4,7 +4,7 @@
 
 size_t		DBG_AllocatedRAM = 0;
 size_t		DBG_NAllocations = 0;
-char		*DBG_LogFile = NULL;
+const char	*DBG_LogFile = NULL;
 
 
 static MEMSTORE	*MemStoreHead = NULL;
@@ -19,7 +19,7 @@ void DeleteMemStore(MEMSTORE *memStore);
 MEMSTORE *NextMemStore(MEMSTORE *memStore);
 void WriteLogEntry(char *s);
 void InitLogFile();
-void Error(char *mod, char *func, char *mess, long errcode);
+void Error(const char *mod, const char *func, const char *mess, long errcode);
 
 
 /////////////////////////////////////////////////////////////////////
@@ -102,7 +102,7 @@ MEMSTORE *NextMemStore(MEMSTORE *memStore)
 //
 /////////////////////////////////////////////////////////////////////
 
-void *DebugMalloc(size_t size, int line, char *file)
+void *DebugMalloc(size_t size, int line, const char *file)
 {
 	void *ptr;
 
@@ -148,7 +148,7 @@ void *DebugMalloc(size_t size, int line, char *file)
 // 
 /////////////////////////////////////////////////////////////////////
 
-void DebugFree(void *ptr, int line, char *file)
+void DebugFree(void *ptr, int line, const char *file)
 {
 	bool foundPtr;
 	MEMSTORE *ptrStore, *nextMem;
@@ -304,7 +304,7 @@ void InitLogFile()
 //
 /////////////////////////////////////////////////////////////////////
 
-void DebugAssert(bool result, int line, char *file)
+void DebugAssert(bool result, int line, const char *file)
 {
 	if (result) return;
 
@@ -323,7 +323,7 @@ void DebugAssert(bool result, int line, char *file)
 // Display N64/PSX error message using PC message box
 //
 
-void Error(char *mod, char *func, char *mess, long errcode)
+void Error(const char *mod, const char *func, const char *mess, long errcode)
 {
 	char buf[256];
 

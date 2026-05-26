@@ -6,7 +6,7 @@
 
 typedef struct {
 	HRESULT Result;
-	char *Error;
+	const char *Error;
 } ERRORDX;
 
 // globals

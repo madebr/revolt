@@ -24,7 +24,7 @@ static char EnterString[128];
 
 // misc
 
-static char *FileFieldTypeNames[] = {
+static const char *FileFieldTypeNames[] = {
 	"Linear",
 	"Orientation",
 	"Velocity",
@@ -38,12 +38,12 @@ static char MaxPicker[] = {
 	2,
 };
 
-static char *FileFieldRotNames[] = {
+static const char *FileFieldRotNames[] = {
 	"Box",
 	"Dir",
 };
 
-static char *FileFieldAxisNames[] = {
+static const char *FileFieldAxisNames[] = {
 	"X Y",
 	"X Z",
 	"Z Y",
@@ -52,7 +52,7 @@ static char *FileFieldAxisNames[] = {
 	"Z",
 };
 
-static char *FileFieldAxisTypeNames[] = {
+static const char *FileFieldAxisTypeNames[] = {
 	"Camera",
 	"World",
 };
@@ -99,7 +99,7 @@ void KillFileFields(void)
 // load file fields //
 //////////////////////
 
-void LoadFileFields(char *file)
+void LoadFileFields(const char *file)
 {
 	long i;
 	FILE *fp;
@@ -150,7 +150,7 @@ void LoadFileFields(char *file)
 // save file fields //
 //////////////////////
 
-void SaveFileFields(char *file)
+void SaveFileFields(const char *file)
 {
 	long i;
 	FILE *fp;

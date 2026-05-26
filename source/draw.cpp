@@ -1262,7 +1262,7 @@ void DrawMousePointer(unsigned long color)
 // load a bitmap //
 ///////////////////
 
-BOOL LoadBitmap(char *bitmap, HBITMAP *hbm)
+BOOL LoadBitmap(const char *bitmap, HBITMAP *hbm)
 {
 	*hbm = (HBITMAP)LoadImage(NULL, bitmap, IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE | LR_CREATEDIBSECTION);
 	return (BOOL)*hbm;
