@@ -54,7 +54,7 @@ typedef struct MemStorageStruct {
 extern void *DebugMalloc(size_t size, int line, char *file);
 extern void DebugFree(void *p, int line, char *file);
 extern void CheckMemoryAllocation(void);
-extern void Error(char *mod, char *func, char *mess, long errno);
+extern void Error(char *mod, char *func, char *mess, long errcode);
 
 
 extern size_t DBG_AllocatedRAM;

@@ -19,7 +19,7 @@ void DeleteMemStore(MEMSTORE *memStore);
 MEMSTORE *NextMemStore(MEMSTORE *memStore);
 void WriteLogEntry(char *s);
 void InitLogFile();
-void Error(char *mod, char *func, char *mess, long errno);
+void Error(char *mod, char *func, char *mess, long errcode);
 
 
 /////////////////////////////////////////////////////////////////////
@@ -323,11 +323,11 @@ void DebugAssert(bool result, int line, char *file)
 // Display N64/PSX error message using PC message box
 //
 
-void Error(char *mod, char *func, char *mess, long errno)
+void Error(char *mod, char *func, char *mess, long errcode)
 {
 	char buf[256];
 
-	wsprintf(buf, "ERROR (%d) in %s - %s", errno, mod, func);
+	wsprintf(buf, "ERROR (%d) in %s - %s", errcode, mod, func);
 	Box(buf, mess, MB_OK | MB_ICONERROR);
 	WriteLogEntry(ErrorMessage);
 	QuitGame = TRUE;
