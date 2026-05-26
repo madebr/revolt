@@ -491,9 +491,9 @@ void RenderFlag(t_Flag *pFlag)
 	int			cX, cY;
 	int			cL;
 	int			i;
-	static		rX = 25;
-	static		rY = 45;
-	static		rZ = 0;
+	static int	rX = 25;
+	static int	rY = 45;
+	static int	rZ = 0;
 
 //	SetCameraView(&Camera[CameraCount].WMatrix, &Camera[CameraCount].WPos, Camera[CameraCount].Shake);
 //	SetCameraVisiMask(&Camera[CameraCount].WPos);
