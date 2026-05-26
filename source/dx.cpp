@@ -10,6 +10,10 @@
 #include "registry.h"
 #include "timing.h"
 
+#ifndef DDSGR_CALIBRATE
+#define DDSGR_CALIBRATE 1
+#endif
+
 // globals
 
 DX_STATE DxState;
