@@ -250,6 +250,10 @@ typedef struct {
 
 // prototypes
 
+#ifdef LoadBitmap
+#undef LoadBitmap
+#endif
+
 extern void InitPolyBuckets(void);
 extern void KillPolyBuckets(void);
 extern void FlushPolyBuckets(void);
