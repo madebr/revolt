@@ -2,7 +2,7 @@
 #include "revolt.h"
 #include "camera.h"
 #include "main.h"
-#include "geom.h"
+#include "Geom.h"
 #include "input.h"
 #include "level.h"
 #include "dx.h"

@@ -18,20 +18,20 @@
 #ifndef _PSX
 #include "main.h"
 #endif
-#include "geom.h"
-#include "particle.h"
+#include "Geom.h"
+#include "Particle.h"
 #include "model.h"
-#include "aerial.h"
-#include "newcoll.h"
-#include "body.h"
+#include "Aerial.h"
+#include "NewColl.h"
+#include "Body.h"
 #include "car.h"
 #ifndef _PSX
 #include "ctrlread.h"
 #endif
 #include "object.h"
-#include "field.h"
+#include "Field.h"
 #ifdef _N64
-#include "spark.h"
+#include "Spark.h"
 #endif
 
 //

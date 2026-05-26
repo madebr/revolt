@@ -1,9 +1,9 @@
 #ifndef __SPARK_H__
 #define __SPARK_H__
 
-#include "Typedefs.h"
+#include "TypeDefs.h"
 #ifdef _PC
-#include "Draw.h"
+#include "draw.h"
 #endif
 #ifdef _N64
 #include "faceme.h"

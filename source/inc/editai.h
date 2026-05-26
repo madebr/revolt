@@ -2,7 +2,7 @@
 #ifndef EDITAI_H
 #define EDITAI_H
 
-#include "geom.h"
+#include "Geom.h"
 #include "car.h"
 #include "ainode.h"
 #include "model.h"

@@ -1,7 +1,7 @@
 
 #include "revolt.h"
 #include "coll.h"
-#include "geom.h"
+#include "Geom.h"
 #ifdef _PC
 #include "text.h"
 #include "main.h"

@@ -3,7 +3,7 @@
 #include "editcam.h"
 #include "main.h"
 #include "model.h"
-#include "geom.h"
+#include "Geom.h"
 #include "text.h"
 #include "camera.h"
 #include "input.h"

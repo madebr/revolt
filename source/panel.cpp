@@ -5,7 +5,7 @@
 #include "object.h"
 #include "player.h"
 #include "timing.h"
-#include "geom.h"
+#include "Geom.h"
 #include "trigger.h"
 #include "text.h"
 #include "input.h"

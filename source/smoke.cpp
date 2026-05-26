@@ -1,7 +1,7 @@
 
 #include "revolt.h"
 #include "main.h"
-#include "geom.h"
+#include "Geom.h"
 #include "dx.h"
 #include "texture.h"
 #include "model.h"

@@ -5,7 +5,7 @@
 #include "main.h"
 #include "world.h"
 #include "camera.h"
-#include "geom.h"
+#include "Geom.h"
 #include "model.h"
 #include "text.h"
 #include "texture.h"

@@ -2,7 +2,7 @@
 #include "revolt.h"
 #include "sfx.h"
 #include "main.h"
-#include "geom.h"
+#include "Geom.h"
 #include "camera.h"
 #include "timing.h"
 

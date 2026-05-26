@@ -16,9 +16,9 @@
 #include "Particle.h"
 #include "Body.h"
 #include "Wheel.h"
-#include "Car.h"
+#include "car.h"
 #include "Geom.h"
-#include "Main.h"
+#include "main.h"
 #include "Control.h"
 #ifdef _PC
 #include "Ghost.h"

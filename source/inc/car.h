@@ -2,11 +2,11 @@
 #ifndef CAR_H
 #define CAR_H
 
-#include "newcoll.h"
-#include "particle.h"
-#include "body.h"
+#include "NewColl.h"
+#include "Particle.h"
+#include "Body.h"
 #include "model.h"
-#include "aerial.h"
+#include "Aerial.h"
 #include "Wheel.h"
 
 #ifdef _PC

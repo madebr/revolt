@@ -2,7 +2,7 @@
 #ifndef EDITOBJ_H
 #define EDITOBJ_H
 
-#include "geom.h"
+#include "Geom.h"
 
 // macros
 

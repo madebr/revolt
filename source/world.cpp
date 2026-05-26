@@ -2,7 +2,7 @@
 #include "revolt.h"
 #include "NewColl.h"
 #include "world.h"
-#include "geom.h"
+#include "Geom.h"
 #include "dx.h"
 #include "light.h"
 #include "main.h"

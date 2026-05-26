@@ -5,7 +5,7 @@
 #include "input.h"
 #endif
 #include "main.h"
-#include "geom.h"
+#include "Geom.h"
 #ifdef _PC
 #include "text.h"
 #include "dx.h"

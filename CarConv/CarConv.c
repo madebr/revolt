@@ -32,14 +32,14 @@
 #define MAX_SPLIT_TIMES	10
 
 
-#include "typedefs.h"
-#include "geom.h"
+#include "TypeDefs.h"
+#include "Geom.h"
 #include "model.h"
-#include "particle.h"
-#include "newcoll.h"
-#include "body.h"
+#include "Particle.h"
+#include "NewColl.h"
+#include "Body.h"
 #include "wheel.h"
-#include "aerial.h"
+#include "Aerial.h"
 #include "car.h"
 
 #undef EOF

@@ -1,4 +1,4 @@
-#include "ReVolt.h"
+#include "revolt.h"
 #include "Geom.h"
 #include "Gaussian.h"
 

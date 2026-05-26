@@ -2,7 +2,7 @@
 #ifndef MODEL_H
 #define MODEL_H
 
-#include "newcoll.h"
+#include "NewColl.h"
 
 // macros
 

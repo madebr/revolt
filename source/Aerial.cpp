@@ -5,12 +5,12 @@
 //
 //
 
-#include "Revolt.h"
+#include "revolt.h"
 #include "Particle.h"
 
 #ifndef _PSX
 
-#include "Model.h"
+#include "model.h"
 #include "Aerial.h"
 #include "Geom.h"
 

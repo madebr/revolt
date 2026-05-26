@@ -6,7 +6,7 @@
 #include "player.h"
 #include "main.h"
 #include "editzone.h"
-#include "geom.h"
+#include "Geom.h"
 #include "aizone.h"
 #include "ainode.h"
 #include "trigger.h"

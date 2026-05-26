@@ -1,9 +1,9 @@
 
-#include "ReVolt.h"
+#include "revolt.h"
 #ifndef _PSX
-#include "newcoll.h"
-#include "Timing.h"
-#include "geom.h"
+#include "NewColl.h"
+#include "timing.h"
+#include "Geom.h"
 #include "object.h"
 #include "Field.h"
 #endif
@@ -11,9 +11,9 @@
 #ifdef _PC
 #include "draw.h"
 #endif
-#include "Camera.h"
+#include "camera.h"
 #ifndef _PSX
-#include "Visibox.h"
+#include "visibox.h"
 #endif
 #ifdef _N64
 #include "gamegfx.h"

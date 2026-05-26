@@ -1,16 +1,16 @@
 
-#include "ReVolt.h"
+#include "revolt.h"
 #include "NewColl.h"
 #include "Particle.h"
 #include "Body.h"
 #include "Geom.h"
 #ifndef _PSX
-#include "Main.h"
-#include "Level.h"
+#include "main.h"
+#include "level.h"
 #endif
 #include "Field.h"
 #ifdef _PC
- #include "EdField.h"
+ #include "edfield.h"
 #endif
 
 #if MSCOMPILER_FUDGE_OPTIMISATIONS

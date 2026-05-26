@@ -1,28 +1,28 @@
 
-#include "Revolt.h"
+#include "revolt.h"
 #include "ctrlread.h"
 #ifdef _PC
 #include "input.h"
 #endif
-#include "Model.h"
+#include "model.h"
 #ifdef _PC
-#include "Play.h"
+#include "play.h"
 #endif
 #include "Particle.h"
 #include "Aerial.h"
 #include "NewColl.h"
 #include "Body.h"
-#include "Car.h"
+#include "car.h"
 #ifdef _PC
 #include "input.h"
 #endif
 #ifndef _PSX
-#include "Main.h"
+#include "main.h"
 #include "level.h"
 #endif
 #include "object.h"
 #include "player.h"
-#include "geom.h"
+#include "Geom.h"
 #ifndef _PSX
 #include "timing.h"
 #endif
@@ -30,7 +30,7 @@
 #include "move.h"
 #ifndef _PSX
 #include "obj_init.h"
-#include "AIZone.h"
+#include "aizone.h"
 #endif
 
 //

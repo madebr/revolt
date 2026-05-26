@@ -20,11 +20,11 @@
 #include "revolt.h"
 #include "main.h"
 #include "dx.h"
-#include "geom.h"
-#include "particle.h"
+#include "Geom.h"
+#include "Particle.h"
 #include "texture.h"
 #include "model.h"
-#include "aerial.h"
+#include "Aerial.h"
 #include "play.h"
 #include "NewColl.h"
 #include "Body.h"
@@ -42,11 +42,11 @@
 #include "editobj.h"
 #include "aizone.h"
 #include "timing.h"
-#include "ghost.h"
+#include "Ghost.h"
 #include "registry.h"
 #include "panel.h"
 #include "move.h"
-#include "Readinit.h"
+#include "ReadInit.h"
 
 
 extern char *CarInfoFile;

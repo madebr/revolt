@@ -1,5 +1,5 @@
-#include "ReVolt.h"
-#include "Main.h"
+#include "revolt.h"
+#include "main.h"
 
 
 size_t		DBG_AllocatedRAM = 0;

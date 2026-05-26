@@ -3,7 +3,7 @@
 #include "edfield.h"
 #include "main.h"
 #include "dx.h"
-#include "geom.h"
+#include "Geom.h"
 #include "camera.h"
 #include "text.h"
 #include "input.h"

@@ -18,12 +18,12 @@
 #ifndef _PSX
 #include "main.h"
 #endif
-#include "geom.h"
-#include "particle.h"
+#include "Geom.h"
+#include "Particle.h"
 #include "model.h"
-#include "aerial.h"
-#include "newcoll.h"
-#include "body.h"
+#include "Aerial.h"
+#include "NewColl.h"
+#include "Body.h"
 #include "car.h"
 #include "ctrlread.h"
 #include "object.h"
@@ -32,7 +32,7 @@
 #include "player.h"
 #include "Field.h"
 #ifdef _PC
-#include "ghost.h"
+#include "Ghost.h"
 #endif
 
 //

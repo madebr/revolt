@@ -4,7 +4,7 @@
 
 #include "texture.h"
 #include "world.h"
-#include "newcoll.h"
+#include "NewColl.h"
 
 // macros
 

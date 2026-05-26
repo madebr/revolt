@@ -3,7 +3,7 @@
 #include "edportal.h"
 #include "main.h"
 #include "camera.h"
-#include "geom.h"
+#include "Geom.h"
 #include "level.h"
 #include "input.h"
 #include "text.h"

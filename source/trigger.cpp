@@ -3,7 +3,7 @@
 #include "trigger.h"
 #include "edittrig.h"
 #include "main.h"
-#include "geom.h"
+#include "Geom.h"
 #include "car.h"
 #include "ctrlread.h"
 #include "object.h"

@@ -1,5 +1,5 @@
 
-#include "ReVolt.h"
+#include "revolt.h"
 #include "Geom.h"
 #include "NewColl.h"
 #include "Particle.h"
@@ -7,24 +7,24 @@
 #include "Aerial.h"
 #include "Wheel.h"
 #ifndef _PSX
-#include "Model.h"
+#include "model.h"
 #endif
-#include "Car.h"
+#include "car.h"
 #ifndef _PSX
-#include "Main.h"
-#include "Level.h"
+#include "main.h"
+#include "level.h"
 #endif
 
 #ifdef _PC
-#include "Instance.h"
+#include "instance.h"
 #endif
 
 #include "ctrlread.h"
-#include "Object.h"
+#include "object.h"
 #include "Field.h"
 #include "control.h"
 #include "player.h"
-#include "spark.h"
+#include "Spark.h"
 #ifdef _PC
 #include "ai.h"
 #endif

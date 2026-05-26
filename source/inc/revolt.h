@@ -20,7 +20,7 @@
 #include <dplobby.h>
 
 #include "Units.h"
-#include "Typedefs.h"
+#include "TypeDefs.h"
 #include "Util.h"
 //#include "Resource.h"
 #include "Debug.h"

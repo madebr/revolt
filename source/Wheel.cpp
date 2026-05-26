@@ -1,6 +1,6 @@
 
 
-#include "ReVolt.h"
+#include "revolt.h"
 #include "NewColl.h"
 #include "Wheel.h"
 #include "Geom.h"
@@ -8,7 +8,7 @@
 #include "visibox.h"
 #endif
 #ifdef _PC
-#include "Draw.h"
+#include "draw.h"
 #endif
 #ifdef _N64
 #include "car.h"

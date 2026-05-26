@@ -1,4 +1,4 @@
-#include "Revolt.h"
+#include "revolt.h"
 #include "Particle.h"
 #include "Geom.h"
 #include "NewColl.h"

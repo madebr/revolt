@@ -3,13 +3,13 @@
 #ifdef _N64
  #include "gfx.h"
 #endif
-#include "geom.h"
+#include "Geom.h"
 #include "model.h"
 #ifdef _PC
  #include "play.h"
 #endif
-#include "particle.h"
-#include "aerial.h"
+#include "Particle.h"
+#include "Aerial.h"
 #include "NewColl.h"
 #include "Body.h"
 #ifdef _PC
@@ -22,12 +22,13 @@
 #include "player.h"
 #include "level.h"
 #ifdef _PC
- #include "ghost.h"
+ #include "Ghost.h"
 #endif
 #include "visibox.h"
 #ifdef _PC
- #include "EditCam.h"
+ #include "editcam.h"
 #endif
+#include "Debug.h"
 
 // Camera Type setting function prototypes
 void SetCameraFollow(CAMERA *camera, OBJECT *object, long type);

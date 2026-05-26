@@ -18,11 +18,11 @@
 #ifndef _PSX
 #include "main.h"
 #include "dx.h"
-#include "geom.h"
-#include "particle.h"
+#include "Geom.h"
+#include "Particle.h"
 #include "texture.h"
 #include "model.h"
-#include "aerial.h"
+#include "Aerial.h"
 #include "NewColl.h"
 #include "Body.h"
 #include "car.h"
@@ -43,7 +43,7 @@
 #include "editzone.h"
 #include "aizone.h"
 #include "registry.h"
-#include "field.h"
+#include "Field.h"
 #include "Ghost.h"
 #include "mirror.h"
 #include "timing.h"
@@ -61,7 +61,7 @@
 #endif
 
 #ifdef _PC
-#include "spark.h"
+#include "Spark.h"
 #endif
 //
 // Static function prototypes

@@ -1,7 +1,7 @@
-#include "Revolt.h"
+#include "revolt.h"
 
 #ifndef _PSX
-#include "Main.h"
+#include "main.h"
 #endif
 #ifdef _PC
 #include "input.h"
@@ -9,13 +9,13 @@
 #include "Geom.h"
 #include "NewColl.h"
 #ifndef _PSX
-#include "Model.h"
+#include "model.h"
 #endif
 #include "Particle.h"
 #include "Body.h"
 #include "Aerial.h"
 #include "Wheel.h"
-#include "Car.h"
+#include "car.h"
 #ifndef _PSX
 #include "ctrlread.h"
 #endif

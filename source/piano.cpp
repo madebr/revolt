@@ -2,7 +2,7 @@
 #include "revolt.h"
 #include "piano.h"
 #include "draw.h"
-#include "geom.h"
+#include "Geom.h"
 #include "trigger.h"
 #include "sfx.h"
 #include "ctrlread.h"

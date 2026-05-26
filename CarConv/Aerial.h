@@ -9,7 +9,7 @@
 #ifndef __AERIAL_H__
 #define __AERIAL_H__
 
-#include "particle.h"
+#include "Particle.h"
 
 #ifndef _PSX
 #define AERIAL_NSECTIONS	3			// Odd number > 2

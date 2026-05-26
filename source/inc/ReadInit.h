@@ -2,13 +2,13 @@
 #ifndef __READINIT_H__
 #define __READINIT_H__
 
-#include "ReVolt.h"
+#include "revolt.h"
 #include "model.h"
-#include "particle.h"
-#include "newcoll.h"
-#include "body.h"
-#include "wheel.h"
-#include "aerial.h"
+#include "Particle.h"
+#include "NewColl.h"
+#include "Body.h"
+#include "Wheel.h"
+#include "Aerial.h"
 #include "car.h"
 
 /////////////////////////////////////////////////////////////////////

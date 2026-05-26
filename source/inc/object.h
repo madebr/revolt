@@ -26,8 +26,9 @@
 #endif
 #include "control.h"
 #ifdef _N64
-#include "spark.h"
+#include "Spark.h"
 #endif
+#include "Control.h"
 
 //
 // Defines and macros

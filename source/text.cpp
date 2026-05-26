@@ -8,7 +8,7 @@
 #include "model.h"
 #include "world.h"
 #include "texture.h"
-#include "geom.h"
+#include "Geom.h"
 #include "camera.h"
 #include "Particle.h"
 #include "NewColl.h"
@@ -21,10 +21,10 @@
 #include "player.h"
 #include "gameloop.h"
 #include "registry.h"
-#include "ghost.h"
+#include "Ghost.h"
 #include "ai.h"
 #ifdef _PC
-#include "spark.h"
+#include "Spark.h"
 #endif
 #include "timing.h"
 

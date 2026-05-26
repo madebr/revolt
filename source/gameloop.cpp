@@ -18,11 +18,11 @@
 #include "revolt.h"
 #include "main.h"
 #include "dx.h"
-#include "geom.h"
+#include "Geom.h"
 #include "model.h"
 #include "texture.h"
-#include "particle.h"
-#include "aerial.h"
+#include "Particle.h"
+#include "Aerial.h"
 #include "play.h"
 #include "NewColl.h"
 #include "Body.h"
@@ -48,10 +48,10 @@
 #include "editobj.h"
 #include "editzone.h"
 #include "instance.h"
-#include "Player.h"
+#include "player.h"
 #include "timing.h"
 #include "Ghost.h"
-#include "Registry.h"
+#include "registry.h"
 #include "edittrig.h"
 #include "trigger.h"
 #include "editcam.h"
@@ -62,7 +62,7 @@
 #include "edportal.h"
 #include "weapon.h"
 #ifdef _PC
-#include "spark.h"
+#include "Spark.h"
 #endif
 
 // globals

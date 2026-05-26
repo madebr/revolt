@@ -1,7 +1,7 @@
 
 #include "revolt.h"
 #include "coll.h"
-#include "geom.h"
+#include "Geom.h"
 #include "3d.h"
 #include "sound.h"
 #include "input.h"

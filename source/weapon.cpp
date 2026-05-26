@@ -5,12 +5,12 @@
 #include "car.h"
 #include "ctrlread.h"
 #include "player.h"
-#include "geom.h"
+#include "Geom.h"
 #include "move.h"
-#include "field.h"
+#include "Field.h"
 #include "timing.h"
-#include "spark.h"
-#include "drawobj.h"
+#include "Spark.h"
+#include "DrawObj.h"
 #ifdef _PC
 #include "shadow.h"
 #endif

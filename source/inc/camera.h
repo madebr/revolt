@@ -7,10 +7,10 @@
  #include "object.h"
 #endif
 #ifdef _N64
- #include "geom.h"
+ #include "Geom.h"
  #include "model.h"
- #include "particle.h"
- #include "aerial.h"
+ #include "Particle.h"
+ #include "Aerial.h"
  #include "NewColl.h"
  #include "Body.h"
  #include "car.h"

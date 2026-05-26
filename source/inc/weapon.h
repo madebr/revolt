@@ -5,9 +5,9 @@
 #ifdef _PC
 #include "draw.h"
 #endif
-#include "newcoll.h"
-#include "particle.h"
-#include "body.h"
+#include "NewColl.h"
+#include "Particle.h"
+#include "Body.h"
 #include "object.h"
 #include "Spark.h"
 

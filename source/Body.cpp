@@ -1,5 +1,5 @@
 
-#include "ReVolt.h"
+#include "revolt.h"
 
 #include "TypeDefs.h"
 #include "Geom.h"
@@ -7,11 +7,11 @@
 #include "NewColl.h"
 #include "Body.h"
 #ifndef _PSX
-#include "Main.h"
+#include "main.h"
 #endif
 #include "Gaussian.h"
 #ifndef _PSX
-#include "spark.h"
+#include "Spark.h"
 #endif
 
 int NThisBodySparks = 0;
