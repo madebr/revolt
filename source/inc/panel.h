@@ -38,8 +38,6 @@ typedef struct {
 } MAP_INFO;
 
 extern long SpeedUnits;
-extern char *SpeedUnitText[];
-extern REAL SpeedUnitScale[];
 
 
 
