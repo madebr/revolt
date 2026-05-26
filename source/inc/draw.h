@@ -235,7 +235,7 @@ typedef struct {
 	float Xsize, Ysize;
 	float U, V, Usize, Vsize;
 	short Tpage, pad;
-	long RGB;
+	unsigned long RGB;
 } FACING_POLY;
 
 typedef struct {

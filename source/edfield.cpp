@@ -66,7 +66,7 @@ static unsigned short DrawFieldIndex[] = {
 	0, 1, 5, 4,
 };
 
-static long DrawFieldCol[] = {
+static unsigned long DrawFieldCol[] = {
 	0x80ff0000,
 	0x8000ff00,
 	0x800000ff,

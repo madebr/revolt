@@ -96,7 +96,7 @@ typedef struct SparkDataStruct {
 	GAME_GFX	GfxIdx;
 	long		u, v;
 	long		w, h;
-	long		Colour;
+	unsigned long		Colour;
 	FACEME_FLAG	Flag;
 #endif
 	long SparkType;				// Bit flags for spark subtypes

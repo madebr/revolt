@@ -44,7 +44,7 @@ static unsigned short DrawPortalIndex[] = {
 	0, 1, 5, 4,
 };
 
-static long DrawPortalCol[] = {
+static unsigned long DrawPortalCol[] = {
 	0x80ff0000,
 	0x8000ff00,
 	0x800000ff,

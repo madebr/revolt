@@ -46,7 +46,7 @@ static unsigned short DrawTriggerIndex[] = {
 	0, 1, 5, 4,
 };
 
-static long DrawTriggerCol[] = {
+static unsigned long DrawTriggerCol[] = {
 	0x80ff0000,
 	0x8000ff00,
 	0x800000ff,

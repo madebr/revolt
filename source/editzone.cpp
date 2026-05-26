@@ -51,7 +51,7 @@ static unsigned short DrawZoneIndex[] = {
 	0, 1, 5, 4,
 };
 
-static long DrawZoneCol[] = {
+static unsigned long DrawZoneCol[] = {
 	0x80ff0000,
 	0x8000ff00,
 	0x800000ff,
